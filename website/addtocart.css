@@ -1,0 +1,134 @@
+
+
+.addtocartcontainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+}
+
+.addToCartElement {
+    margin-top: 100px;
+    width: 98%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.productCartTotalElem {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.productCartTotalElement {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.productOrderTotal .totalRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.productOrderTotal .totalRow p {
+    margin: 0;
+}
+
+.addtocartcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.information {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.imageContainer {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.productImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.category {
+    font-size: 14px;
+    color: #999;
+}
+
+.productName {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.productPrice {
+    font-size: 16px;
+    color: #e91e63;
+    margin: 10px 0;
+}
+
+.stockElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.cartIncrement, .cartDecrement {
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cartIncrement:hover, .cartDecrement:hover {
+    background-color: #d81b60;
+}
+
+.productQuantity {
+    font-size: 16px;
+}
+
+.add-to-cart-button {
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-to-cart-button:hover {
+    background-color: #d81b60;
+}
+
+.remove-to-cart-button {
+    background-color: #ff1744;
+}
+
+.remove-to-cart-button:hover {
+    background-color: #f01440;
+}
